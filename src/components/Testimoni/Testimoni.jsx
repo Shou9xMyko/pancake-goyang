@@ -7,9 +7,7 @@ const Testimoni = () => {
   return (
     <>
       <Navbars />
-
       <TestimoniVideo />
-
       <Footer />
     </>
   );
