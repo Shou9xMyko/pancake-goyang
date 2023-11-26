@@ -1,9 +1,9 @@
 import Footer from "../Footer/Footer";
 import Navbars from "../Navbars/Navbars";
 import TestimoniVideo from "../Testimoni_Video/TestimoniVideo";
-import "./Testimoni.css";
+import "./TestimoniCustomer.css";
 
-const Testimoni = () => {
+const TestimoniCustomer = () => {
   return (
     <>
       <Navbars />
@@ -13,4 +13,4 @@ const Testimoni = () => {
   );
 };
 
-export default Testimoni;
+export default TestimoniCustomer;
