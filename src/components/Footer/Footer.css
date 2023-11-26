@@ -1,0 +1,13 @@
+.footer {
+  background-color: #ffe8af !important;
+}
+
+#footer-instagram-text {
+  color: #212529;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+#footer-instagram-text:hover {
+  color: blue;
+}

@@ -1,0 +1,24 @@
+.title-testimoni {
+  color: #eb7d26;
+  font-weight: 600;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  background: white;
+  border-radius: 8px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  height: 30em;
+  padding-bottom: 5em;
+  object-fit: cover;
+}

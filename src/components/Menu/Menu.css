@@ -1,0 +1,48 @@
+/* #image-menu {
+  width: 100%;
+} */
+.title-daftar-menu {
+  color: #eb7d26;
+  font-weight: 600;
+}
+
+.card-title-pancake {
+  color: #eb7d26;
+}
+
+.card-text-price {
+  color: #eb7d26;
+}
+
+#btn-whatsapp {
+  background-color: #2bb741;
+  padding: 0.5em 2em;
+  color: white;
+  font-weight: 600;
+  border: 2px solid #2bb741;
+  border-radius: 6px;
+}
+
+/* @media screen and (min-width: 350px) {
+  #image-menu {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 721px) and (max-width: 939px) {
+  #image-menu {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 939px) and (max-width: 1200px) {
+  #image-menu {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #image-menu {
+    width: 40%;
+  }
+} */
