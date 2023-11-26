@@ -3,16 +3,24 @@ import Navbars from "../Navbars/Navbars";
 import BgImage from "../../assets/home page.png";
 import Documentation from "../Documentation_Image/Documentation";
 import Footer from "../Footer/Footer";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const Homepage = () => {
   return (
     <>
       <Navbars />
-      <img
+      {/* <img
         src={BgImage}
         alt=""
         style={{ width: "100%", height: "auto" }}
         className="img-fluid"
+      /> */}
+
+      <LazyLoadImage
+        src={BgImage}
+        style={{ width: "100%", height: "auto" }}
+        className="img-fluid"
+        effect="blur"
       />
 
       <Documentation />

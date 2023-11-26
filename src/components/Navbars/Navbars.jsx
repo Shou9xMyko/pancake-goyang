@@ -4,6 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Logo from "../../assets/logo.png";
 import { Link } from "react-router-dom";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const Navbars = () => {
   return (
@@ -15,7 +16,8 @@ const Navbars = () => {
     >
       <Container>
         <Navbar.Brand as={Link} to="/">
-          <img src={Logo} alt="" width={50} height={50} />
+          {/* <img src={Logo} alt="" width={50} height={50} /> */}
+          <LazyLoadImage src={Logo} width={50} height={50} effect="blur" />
         </Navbar.Brand>
         <Navbar.Brand className="me-auto text-white fw-bold">
           Pancake Goyang

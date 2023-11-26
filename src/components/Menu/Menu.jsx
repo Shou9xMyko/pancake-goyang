@@ -3,6 +3,7 @@ import Footer from "../Footer/Footer";
 import Navbars from "../Navbars/Navbars";
 import ReactWhatsapp from "react-whatsapp";
 import { FaWhatsapp } from "react-icons/fa";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import Menu1 from "../../assets/menu1.png";
 import Menu2 from "../../assets/menu2.png";
 import Menu3 from "../../assets/menu3.png";
@@ -58,10 +59,15 @@ const Menu = () => {
                 key={item.id}
               >
                 <div className="card shadow w-100" style={{ width: "18rem" }}>
-                  <img
+                  {/* <img
                     src={item.image_menu}
-                    className="card-img-top"
+                    className="card-img-top img-fluid"
                     alt="..."
+                  /> */}
+                  <LazyLoadImage
+                    src={item.image_menu}
+                    className="card-img-top img-fluid"
+                    effect="blur"
                   />
                   <div className="card-body">
                     <h4 className="card-title-pancake fw-bold">

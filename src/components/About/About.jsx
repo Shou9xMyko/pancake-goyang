@@ -2,6 +2,7 @@ import "./About.css";
 import Navbars from "../Navbars/Navbars";
 import Logo from "../../assets/logo.png";
 import Footer from "../Footer/Footer";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const About = () => {
   return (
@@ -10,7 +11,13 @@ const About = () => {
       <h1 className="title-about text-center mt-5 fw-bold">About</h1>
       <div className="row m-0 my-5">
         <div className="col-12 col-md-6 text-center">
-          <img src={Logo} alt="" className="img-fluid" width={400} />
+          {/* <img src={Logo} alt="" className="img-fluid" width={400} /> */}
+          <LazyLoadImage
+            src={Logo}
+            width={400}
+            className="img-fluid"
+            effect="blur"
+          />
         </div>
         <div className="col-12 col-md-6 mt-5">
           <p className="text-wrap fw-medium">
