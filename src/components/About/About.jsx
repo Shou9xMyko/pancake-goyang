@@ -10,11 +10,12 @@ const About = () => {
       <Navbars />
       <h1 className="title-about text-center mt-5 fw-bold">About</h1>
       <div className="row m-0 my-5">
-        <div className="col-12 col-md-6 text-center">
+        <div className="col-12 col-md-6 d-flex justify-content-center">
           {/* <img src={Logo} alt="" className="img-fluid" width={400} /> */}
           <LazyLoadImage
             src={Logo}
-            width={400}
+            // width={350}
+            id="image-about-logo"
             className="img-fluid"
             effect="blur"
           />
